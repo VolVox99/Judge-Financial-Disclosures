@@ -4,3 +4,5 @@
 /AUTH_TOKEN.txt
 /parse_fields.py
 /t.py
+/__pycache__
+/data
