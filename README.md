@@ -15,9 +15,10 @@ Disclosures are seperated into certain categories, such as positions, or investm
 
 
 
-
-
-## Common Fields
+```
+=============
+Common Fields
+=============
 
 
 
@@ -29,10 +30,13 @@ report_type: Financial Disclosure report type
 addendum_redacted: Is the addendum partially or completely redacted?
 Disclosure Type: Type of the disclosure, (investments, debts, etc)
 
-## Disclosure Fields
+=============
+Disclosure Fields
+=============
 
 
 Note: Depending on the Disclosure Type field above, the corresponding fields will be filled in for the row
+
 
 agreements:
         date_raw: Date of judicial agreement.
@@ -122,8 +126,10 @@ spouse_incomes:
         date_raw: Date of spousal income (ex. 2011).
 
 
+=============
+Person Fields
+=============
 
-## Person Fields
 
 fjc_id: The ID of a judge as assigned by the Federal Judicial Center.
 Date of Birth: The date of birth for the person
@@ -153,3 +159,4 @@ race: Race of the person. Variable length so combined by a comma
 Birth State: The state where the person was born.
 
 
+```
